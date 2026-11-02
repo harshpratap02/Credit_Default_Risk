@@ -1,0 +1,5 @@
+group,flat,exposure_aware
+under 25,0.823,1.134
+high school,0.87,1.192
+university,0.895,1.19
+male,0.955,1.091

@@ -1,0 +1,22 @@
+comparison,metric,difference,ci_low,ci_high,excludes_zero
+Monotonic (full) minus Unconstrained,ROC_AUC,-0.0008,-0.0027,0.0011,False
+Monotonic (full) minus Unconstrained,KS,0.0012,-0.008,0.01,False
+Monotonic (full) minus Unconstrained,saving_vs_best_naive,0.0041,-0.0119,0.0205,False
+Monotonic (full) minus Unconstrained,DI_under25,0.0074,-0.026,0.0397,False
+Monotonic (full) minus Unconstrained,DI_male,-0.0134,-0.0322,0.0052,False
+Monotonic (full) minus Unconstrained,FPR_gap_under25,-0.005,-0.0269,0.0172,False
+Monotonic (full) minus Unconstrained,FPR_gap_male,0.0097,-0.0025,0.0218,False
+"Monotonic, drop SEX/MARRIAGE/AGE minus Monotonic (full)",ROC_AUC,-0.0006,-0.0025,0.0014,False
+"Monotonic, drop SEX/MARRIAGE/AGE minus Monotonic (full)",KS,-0.0036,-0.0092,0.0047,False
+"Monotonic, drop SEX/MARRIAGE/AGE minus Monotonic (full)",saving_vs_best_naive,-0.0124,-0.0285,0.003,False
+"Monotonic, drop SEX/MARRIAGE/AGE minus Monotonic (full)",DI_under25,-0.053,-0.0902,-0.0162,True
+"Monotonic, drop SEX/MARRIAGE/AGE minus Monotonic (full)",DI_male,0.0665,0.0472,0.0855,True
+"Monotonic, drop SEX/MARRIAGE/AGE minus Monotonic (full)",FPR_gap_under25,0.0276,0.0027,0.0528,True
+"Monotonic, drop SEX/MARRIAGE/AGE minus Monotonic (full)",FPR_gap_male,-0.0422,-0.0547,-0.0293,True
+"Monotonic, drop all demographics minus Monotonic (full)",ROC_AUC,-0.0021,-0.0043,-0.0,True
+"Monotonic, drop all demographics minus Monotonic (full)",KS,0.0021,-0.0056,0.0101,False
+"Monotonic, drop all demographics minus Monotonic (full)",saving_vs_best_naive,-0.0113,-0.0281,0.0034,False
+"Monotonic, drop all demographics minus Monotonic (full)",DI_under25,-0.0389,-0.0732,-0.0052,True
+"Monotonic, drop all demographics minus Monotonic (full)",DI_male,0.0736,0.052,0.0926,True
+"Monotonic, drop all demographics minus Monotonic (full)",FPR_gap_under25,0.0197,-0.0063,0.0453,False
+"Monotonic, drop all demographics minus Monotonic (full)",FPR_gap_male,-0.0458,-0.059,-0.0315,True

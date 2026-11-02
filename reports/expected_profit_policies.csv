@@ -1,0 +1,5 @@
+policy,approval_rate,bad_rate_among_approved,total_profit,profit_per_applicant,profit_vs_flat
+Approve all,1.0,0.2212,3247.7603,0.5413,-0.4054
+Reject all,0.0,,0.0,0.0,-1.0
+"Flat cutoff, tuned out-of-fold (0.23)",0.7055,0.12,5461.6801,0.9103,0.0
+Exposure-aware expected profit,0.5285,0.1239,6839.6562,1.1399,0.2523

@@ -1,0 +1,53 @@
+variant,metric,estimate,ci_low,ci_high
+Unconstrained,ROC_AUC,0.7812,0.7668,0.7959
+Unconstrained,KS,0.4282,0.402,0.4595
+Unconstrained,approval_rate,0.5425,0.5295,0.555
+Unconstrained,bad_rate_among_approved,0.0986,0.0877,0.1089
+Unconstrained,saving_vs_best_naive,0.2844,0.2431,0.3273
+Unconstrained,DI_under25,0.688,0.615,0.7585
+Unconstrained,DI_high_school,0.7433,0.6899,0.7983
+Unconstrained,DI_university,0.8139,0.774,0.8537
+Unconstrained,DI_male,0.8724,0.8311,0.9141
+Unconstrained,FPR_gap_under25,0.1812,0.1289,0.2342
+Unconstrained,FPR_gap_high_school,0.1561,0.116,0.1944
+Unconstrained,FPR_gap_male,0.0662,0.0392,0.0943
+Unconstrained,BAD_gap_high_school,0.0387,0.0061,0.0712
+Monotonic (full),ROC_AUC,0.7804,0.7659,0.7955
+Monotonic (full),KS,0.4294,0.4027,0.4591
+Monotonic (full),approval_rate,0.5337,0.521,0.5462
+Monotonic (full),bad_rate_among_approved,0.0965,0.0861,0.1064
+Monotonic (full),saving_vs_best_naive,0.2885,0.2484,0.3292
+Monotonic (full),DI_under25,0.6954,0.6198,0.7637
+Monotonic (full),DI_high_school,0.7465,0.695,0.8029
+Monotonic (full),DI_university,0.8068,0.7679,0.8461
+Monotonic (full),DI_male,0.859,0.8192,0.9026
+Monotonic (full),FPR_gap_under25,0.1762,0.1251,0.2307
+Monotonic (full),FPR_gap_high_school,0.1577,0.1167,0.1976
+Monotonic (full),FPR_gap_male,0.076,0.0478,0.1036
+Monotonic (full),BAD_gap_high_school,0.0476,0.0138,0.0809
+"Monotonic, drop SEX/MARRIAGE/AGE",ROC_AUC,0.7798,0.7652,0.7953
+"Monotonic, drop SEX/MARRIAGE/AGE",KS,0.4258,0.4005,0.4563
+"Monotonic, drop SEX/MARRIAGE/AGE",approval_rate,0.532,0.5193,0.5452
+"Monotonic, drop SEX/MARRIAGE/AGE",bad_rate_among_approved,0.0993,0.0886,0.1094
+"Monotonic, drop SEX/MARRIAGE/AGE",saving_vs_best_naive,0.2761,0.2365,0.3167
+"Monotonic, drop SEX/MARRIAGE/AGE",DI_under25,0.6424,0.5648,0.7119
+"Monotonic, drop SEX/MARRIAGE/AGE",DI_high_school,0.7572,0.7047,0.814
+"Monotonic, drop SEX/MARRIAGE/AGE",DI_university,0.795,0.7549,0.8348
+"Monotonic, drop SEX/MARRIAGE/AGE",DI_male,0.9255,0.8808,0.9713
+"Monotonic, drop SEX/MARRIAGE/AGE",FPR_gap_under25,0.2039,0.151,0.2583
+"Monotonic, drop SEX/MARRIAGE/AGE",FPR_gap_high_school,0.1471,0.1038,0.1882
+"Monotonic, drop SEX/MARRIAGE/AGE",FPR_gap_male,0.0337,0.0053,0.0627
+"Monotonic, drop SEX/MARRIAGE/AGE",BAD_gap_high_school,0.0428,0.0098,0.0764
+"Monotonic, drop all demographics",ROC_AUC,0.7783,0.7636,0.7929
+"Monotonic, drop all demographics",KS,0.4315,0.4045,0.4627
+"Monotonic, drop all demographics",approval_rate,0.5338,0.5212,0.5465
+"Monotonic, drop all demographics",bad_rate_among_approved,0.0993,0.0884,0.1094
+"Monotonic, drop all demographics",saving_vs_best_naive,0.2771,0.2361,0.3191
+"Monotonic, drop all demographics",DI_under25,0.6565,0.579,0.7289
+"Monotonic, drop all demographics",DI_high_school,0.7646,0.7102,0.8221
+"Monotonic, drop all demographics",DI_university,0.8195,0.7794,0.8596
+"Monotonic, drop all demographics",DI_male,0.9326,0.8898,0.9782
+"Monotonic, drop all demographics",FPR_gap_under25,0.1959,0.1471,0.2506
+"Monotonic, drop all demographics",FPR_gap_high_school,0.1423,0.1002,0.1832
+"Monotonic, drop all demographics",FPR_gap_male,0.0301,0.0023,0.0584
+"Monotonic, drop all demographics",BAD_gap_high_school,0.0447,0.0122,0.0787

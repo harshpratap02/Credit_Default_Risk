@@ -1,0 +1,3 @@
+segment,customers,median_limit,median_avg_bill,median_exposure,mean_predicted_pd,default_rate,approval_rate,share_of_applicants
+cutoff 0.02 and above,5014,110000.0,29699.417,81387.25,0.22,0.212,0.632,0.836
+cutoff under 0.02,986,220000.0,617.083,110000.0,0.226,0.268,0.0,0.164

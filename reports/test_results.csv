@@ -1,0 +1,5 @@
+model,threshold,ROC_AUC,PR_AUC,KS,precision,recall,F1
+Logistic Regression,0.50,0.746,0.505,0.391,0.641,0.295,0.404
+Logistic Regression,best-F1 (0.26),0.746,0.505,0.391,0.48,0.564,0.519
+HistGradientBoosting,0.50,0.781,0.556,0.428,0.666,0.364,0.471
+HistGradientBoosting,best-F1 (0.25),0.781,0.556,0.428,0.496,0.601,0.544

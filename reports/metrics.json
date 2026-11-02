@@ -1,0 +1,12 @@
+{
+  "model": "HistGradientBoosting (monotonic)",
+  "roc_auc": 0.7803961605987094,
+  "pr_auc": 0.5572958324368267,
+  "ks": 0.429397437958701,
+  "policy_cost_ratio": 5,
+  "cutoff": 0.16,
+  "approval_rate": 0.5336666666666666,
+  "bad_rate_among_approved": 0.09650218613366646,
+  "saving_vs_approve_all": 0.49886963074604374,
+  "saving_vs_best_naive": 0.2884656537556174
+}

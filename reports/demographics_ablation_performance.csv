@@ -1,0 +1,4 @@
+variant,features,ROC_AUC,PR_AUC,KS,cutoff,approval_rate,bad_rate_among_approved,saving_vs_best_naive
+Full (monotonic),43,0.7804,0.5573,0.4294,0.16,0.5337,0.0965,0.2885
+"Drop SEX, MARRIAGE, AGE",40,0.7798,0.5549,0.4258,0.16,0.532,0.0993,0.2761
+Drop all demographics,39,0.7783,0.552,0.4315,0.16,0.5338,0.0993,0.2771

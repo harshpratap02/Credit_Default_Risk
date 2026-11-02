@@ -1,0 +1,5 @@
+floor_quantile,flat_cutoff,flat_approval,exposure_approval,uplift_per_1000,ci_low,ci_high,excludes_zero,share_cutoff_under_2pct
+0.05,0.23,0.7055,0.5285,229.6627,187.9365,274.1579,True,0.1643
+0.1,0.23,0.7055,0.5285,228.4715,186.833,272.9476,True,0.1485
+0.25,0.23,0.7055,0.5435,206.5749,164.7232,251.0737,True,0.0015
+0.5,0.26,0.7443,0.7062,93.7425,55.2924,133.7815,True,0.0

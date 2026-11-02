@@ -1,0 +1,9 @@
+feature,model,monotonicity_violations
+MAX_DELAY,HistGradientBoosting,2
+MAX_DELAY,HGB Monotonic,0
+LATE_MONTHS,HistGradientBoosting,0
+LATE_MONTHS,HGB Monotonic,0
+UTIL_AVG,HistGradientBoosting,1
+UTIL_AVG,HGB Monotonic,0
+PAYRATIO_TOTAL,HistGradientBoosting,3
+PAYRATIO_TOTAL,HGB Monotonic,0

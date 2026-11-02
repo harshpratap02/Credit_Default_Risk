@@ -1,0 +1,4 @@
+model,ROC_AUC,PR_AUC,KS
+Logistic Regression,0.7463,0.5055,0.3912
+HistGradientBoosting,0.7812,0.5556,0.4282
+HGB Monotonic,0.7804,0.5573,0.4294
