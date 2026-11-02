@@ -53,10 +53,24 @@ Exposure at default is the latest bill, capped at the credit limit, plus a credi
 
 **Charts**
 
+Model evaluation: ROC, precision recall, calibration and confusion matrix.
+
 ![Model evaluation](reports/figures/evaluation.png)
+
+Default rate by risk decile for the unconstrained model.
+
 ![Default rate by risk decile](reports/figures/decile_lift.png)
+
+How the approval rate and default rate change with the assumed cost ratio.
+
 ![Cost ratio sensitivity](reports/figures/cost_sensitivity.png)
+
+Disparate impact with 95% bootstrap intervals across four model variants.
+
 ![Fairness with bootstrap intervals](reports/figures/bootstrap_fairness_ci.png)
+
+Extra simulated profit of the exposure aware policy across 16 assumption scenarios.
+
 ![Expected profit robustness](reports/figures/expected_profit_robustness.png)
 
 **Repository layout**
